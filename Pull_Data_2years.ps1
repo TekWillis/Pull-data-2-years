@@ -72,7 +72,7 @@ foreach ($file in (Get-Childitem $Rpics)){
 #   AS400   #
 #############
 # COPIES AS400 keymap text file // C:\Users\$user\AppData\Roaming\IBM\Client Access\Emulator\private\AS400.KMP
-Copy-Item '\\bsdit001\C$\AS400.KMP' "C:\Users\$user\AppData\Roaming\IBM\Client Access\Emulator\private\"
+Copy-Item '\\someSERVERname\C$\AS400.KMP' "C:\Users\$user\AppData\Roaming\IBM\Client Access\Emulator\private\"
 
 
 #################
